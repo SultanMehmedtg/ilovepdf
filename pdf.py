@@ -25,22 +25,25 @@ def strt(message):
 	try:
 		bot.send_chat_action(message.chat.id, "typing")
 		strtMsg = f'''
-Hey [{message.from_user.first_name}](tg://user?id={message.chat.id})..!! This bot will helps you to do many things with pdf's 🥳
+*Hi [{message.from_user.first_name}](tg://user?id={message.chat.id})..!!*
 
-Some of the main features are:
-◍ `Convert images to PDF`
-◍ `Convert PDF to images`
-◍ `Convert files to pdf`
+`I'm a PDF tool Bot V² with Many Specifiactions Like:-`
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @nabiIanavab 🤩
+*Cans*
+=> `Convert images to PDF`
+=> `Convert PDF to images`
+=> `Convert files to pdf`
 
-Join @nabiIanavab, for bot updates ♥️
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+🤖*Bot Updates : @Imagetopdfilebot_Support*
+
+*💬Support : @Imagetopdfile_Supportbot*
+
+
+[Write a feedback 📋](http://t.me/Imagetopdfile_Supportbot)
 '''
 		key = types.InlineKeyboardMarkup()
-		key.add(types.InlineKeyboardButton("Source Code ❤️", callback_data="strtDevEdt"),types.InlineKeyboardButton("Explore More 🥳", callback_data="imgsToPdfEdit"))
+		key.add(types.InlineKeyboardButton("📒About", callback_data="strtDevEdt"),types.InlineKeyboardButton("Explore More 🥳", callback_data="imgsToPdfEdit"))
 		bot.send_message(message.chat.id, strtMsg, disable_web_page_preview=True, reply_markup=key)
 	
 	except:
@@ -55,15 +58,22 @@ def strtMsgEdt(call):
 		try:
 			aboutDev = f'''About Dev:
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @nabiIanavab 😇
 
-Lang Used: Python🐍
-[Source Code](https://github.com/nabilanavab/ilovepdf)
+�__*About*__
 
-Join @nabiIanavab , if you ❤ this 
+*🤖 My Name:* [Image to PDF Bot](https://t.me/Imagetopdfilebot) 
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+    
+
+*📝 Language:* [Python](https://www.python.org) 
+
+*👨‍💻 Developer:* [Aghin Khalid](https://t.me/Aghin_Khalid_CP) 
+
+*📢 Updates:* [Image to PDF Support](https://t.me/Imagetopdfilebot_Support) 
+
+*👥 Feedback:* [Support Bot](http://t.me/Imagetopdfile_Supportbot) 
+
+Enjoy it! 
 '''
 			key = types.InlineKeyboardMarkup()
 			key.add(types.InlineKeyboardButton("🔙 Home 🏡", callback_data="back"))
