@@ -253,7 +253,7 @@ def fls(message):
 		
 		fileNm, fileExt = os.path.splitext(isPdfOrImg)
 		suprtedFile = ['.jpg','.jpeg','.png']
-		suprtedPdfFile = ['.pptx', '.epub', '.xps', '.oxps', '.cbz', '.fb2']
+		suprtedPdfFile = ['.epub', '.xps', '.oxps', '.cbz', '.fb2']
 		suprtedPdfFile2 = [".csv",".doc",".docx",".dot",".dotx",".log",".mpp",".mpt",".odt",".pot",".potx",".pps",".ppsx",".ppt",".pptx",".pub",".rtf",".txt",".vdx",".vsd",".vsdx",".vst",".vstx",".wpd",".wps",".wri",".xls",".xlsb",".xlsx",".xlt",".xltx",".xml"]
 		
 		if fileExt in suprtedFile and fileSize <= 100000000:
